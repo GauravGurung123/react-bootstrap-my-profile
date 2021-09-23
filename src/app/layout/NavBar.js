@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 export default function NavBar({ navigations }) {
   return (
-    <Navbar className='sticky-top' bg='primary' variant='dark'>
+    <Navbar className='sticky-top grad' style={{ zIndex: 9999 }} variant='dark'>
       <Container>
         <Navbar.Brand as={NavLink} to='/' exact>
           MyLogo
